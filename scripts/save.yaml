@@ -1,0 +1,12 @@
+goalx: 4.5
+goaly: 9.0
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_rishabh_g5_5587__33429: 'http://rishabh-G5-5587:33429/'}
+rosversion: '1.12.14
+
+  '
+run_id: d54275f0-ee25-11e9-8fbf-302432837813
+use_sim_time: true

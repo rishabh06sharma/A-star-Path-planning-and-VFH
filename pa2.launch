@@ -1,0 +1,12 @@
+<launch>
+
+  <node type="stageros" name="stage_sim" pkg="stage_ros" args="-d $(find ros_pa2)/world/playground.world" />
+
+<rosparam>
+  goalx: 4.5
+  goaly: 9.0
+</rosparam>
+
+<node type="prun.py" name="prun" pkg="ros_pa2"/> 
+
+</launch>
